@@ -1,0 +1,21 @@
+{
+  "name": "program",
+  "version": "1.0.0",
+  "description": "Test for server using pps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pps",
+    "server",
+    "test"
+  ],
+  "author": "Reginald Robinson II",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
